@@ -28,7 +28,7 @@ export default function Contact() {
             <BsEnvelope size={20} />
           </a>
           <span className="text-lg font-semibold text-gray-200">
-            wisnuagung@gmail.com
+            wisnuap313@gmail.com
           </span>
         </div>
 

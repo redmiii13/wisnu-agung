@@ -15,7 +15,7 @@ export default function Home() {
       className="section container mx-auto max-w-4xl flex items-center justify-center flex-wrap lg:flex-nowrap gap-10 px-5"
     >
       {/* Bagian Deskripsi */}
-      <div className="w-full lg:w-1/2 text-primary mb-10 lg:mb-0">
+      <div className="w-full lg:w-1/2 text-primary mb-10 lg:mb-0 order-2 lg:order-1">
         <h1 className="text-4xl font-semibold text-white">Hello I'm 👋 </h1>
         <span
           className="inline-block text-4xl lg:text-5xl font-semibold text-primary text-left lg:text-right lg:whitespace-nowrap"
@@ -76,7 +76,7 @@ export default function Home() {
             className="w-9 h-9 mr-3 rounded-full flex justify-center text-primary items-center border border-primary hover:border-primary hover:bg-primary hover:text-slate-900 transition duration-200"
             target="_blank"
             rel="noopener noreferrer"
-            title="Whatsapp"
+            title="Youtube"
           >
             <BsYoutube />
           </a>
@@ -95,7 +95,7 @@ export default function Home() {
       </div>
 
       {/* Bagian Gambar */}
-      <div className="w-full lg:w-1/2 flex justify-center items-center relative">
+      <div className="w-full lg:w-1/2 flex justify-center items-center relative order-1 lg:order-2">
         <div className="absolute w-64 h-64 rounded-full border-4 border-dashed border-primary animate-spin duration-900"></div>
         <img
           src="img/wisnu.png"

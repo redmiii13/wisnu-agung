@@ -41,6 +41,15 @@ export default function Portfolio() {
       link: "https://drive.google.com/file/d/1TXMZpluiO3iSoFWUQpL28bAChl5GMw5O/view?usp=sharing",
       gambar: "img/sertif4.png",
     },
+    {
+      id: 5,
+      judul: "Pit Optimization & Mine Plan Design (Case Study : Emas)",
+      tempat: "PITINDO TRAINING | Januari 2025",
+      skill:
+        "Set Up Block Model, Whittle Algorithm, Pit Optimization, Pit Design, Report With Ramp Design, Report Total Reserves, Disposal Design, Haul Road Design,  Open-Pit Mining",
+      link: "https://drive.google.com/file/d/1aMdV5XhqElrOR0EcSZegYVWa5vp4Rf7O/view?usp=drivesdk",
+      gambar: "img/sertif5.png",
+    },
   ];
 
   const [activeIndex, setActiveIndex] = useState(0);

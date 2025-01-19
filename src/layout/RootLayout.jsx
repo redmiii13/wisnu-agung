@@ -14,7 +14,7 @@ export default function Rootlayout() {
 
       {/* Fixed navbar */}
       <div className="fixed bottom-4 left-0 right-0 text-center z-10 lg:right-5">
-        <div className="flex justify-between mx-auto text-secondary p-2 rounded-full border-secondary border-solid border-[1px] max-w-[300px]">
+        <div className="flex justify-between mx-auto text-primary p-2 rounded-full border-primary border-solid border-[1px] max-w-[300px] bg-secondary">
           <NavLink
             className="flex w-[50px] h-[50px] justify-center items-center cursor-pointer"
             to="/"
