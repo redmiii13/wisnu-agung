@@ -31,7 +31,7 @@ export default function Home() {
         </span>
 
         <h2 className="text-lg font-base text-white lg:text-lg mt-4">
-          Undergraduate Mining Engineering |{" "}
+          Fresh Graduate Mining Engineering |{" "}
           <span className="text-primary font-bold"> Universitas Jember </span>
         </h2>
         <p className="text-base text-white max-w-xl lg:text-md mt-4">
