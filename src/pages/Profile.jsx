@@ -21,9 +21,9 @@ export default function Profile() {
         <div className="w-full">
           <h1 className="text-3xl lg:text-4xl font-bold py-4">Why hire me?</h1>
           <p className="py-4 text-sm lg:text-base">
-            I am a Mining Engineering student eager to learn and apply my
-            knowledge in the industry. I am a fast learner, a team player, and
-            always strive to give my best.
+            Mining Engineering graduate specializing in mine planning and geotechnical analysis. Hands-on experience in pit
+            design, slope stability evaluation, and production performance analysis. Seeking to apply technical knowledge
+            and problem-solving skills to support efficient and safe mining operations.
           </p>
 
           <button
