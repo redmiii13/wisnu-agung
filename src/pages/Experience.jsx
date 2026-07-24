@@ -6,65 +6,23 @@ import { TypeAnimation } from "react-type-animation";
 export default function Experience() {
   const experiences = [
     {
-      logo: "",
-      posisi: "Research and Surveyor Assistance",
-      tempat: "LP2M Universitas Jember dan BAPPEDA Provinsi Jawa Timur",
-      deskripsi:
-        "Cooperation Projects Between BAPPEDA of East Java Province and Jember University Related to (Background Study RPJMD dan RPJPD Urusan Energi dan Sumber Daya Mineral (ESDM) Provinsi Jawa Timur)",
-      tanggal: "Mei 2023 - August 2023",
-      sertifikat: ["img/sertifikat/lp2m1.jpg", "img/sertifikat/lp2m2.jpg"],
+      logo: "img/logo/LOGO APC.jpeg",
+      posisi: "MINE PLAN ENGINEER",
+      tempat: "PT AHDALIA PRIMA COAL",
+      deskripsi: "Developed short, medium, and long-term mine planning & scheduling to ensure safe and efficient operations.Designed pit, haul roads, waste dump, and other mining infrastructures using mining software (Surpac, Minescape, Arcgis, etc.). Performed ore reserve calculation, fleet requirement analysis, and equipment productivity evaluation to support production targets.Streamlined data integration between geology, survey, and operations teams, accelerating technical decision-making on site.",
+      tanggal: "7 Juli 2025 - 18 Mar 2026",
+      sertifikat: ["img/experience/APC1.jpeg", 
+        "img/experience/APC2.jpeg",
+        "img/experience/APC3.jpeg",],
+      link: "https://youtu.be/-TMzYX0PEOc?si=Hfg9RAVOh3ko4ntA",
     },
     {
-      logo: "img/logo/bumi-suksesindo.png",
-      posisi: "Visitor Service",
-      tempat: "PT Bumi Suksesindo",
-      deskripsi: "Observing the gold mining process",
-      tanggal: "1 Juli 2023 - 31 Juli 2023",
+      logo: "img/logo/unej.png",
+      posisi: "Teaching Assistant - MINE PLANNING 1",
+      tempat: "Mine Plan Laboratory Universitas Jember",
+      deskripsi: "Guide 52 Students in understanding mine planning concept and mining software application",
+      tanggal: "Feb 2025 - Jun 2025",
       sertifikat: ["img/sertifikat/bumi.jpeg"],
-    },
-    {
-      logo: "img/logo/himata.png",
-      posisi: "Staff Departemen Pengembangan Minat dan Bakat",
-      tempat: "Himpunan Mahasiswa Tambang Universitas Jember",
-      deskripsi: "",
-      tanggal: "Februari 2023 - Desember 2023",
-      sertifikat: ["img/sertifikat/hima.jpeg"],
-    },
-
-    {
-      logo: "",
-      posisi: "Petrology Mineralogy and Cristalography Assistant Lecture",
-      tempat: "Laboratorium Mekanika Batuan Universitas Jember",
-      deskripsi:
-        "Managing the recapitulation of grades and assignments from the practitioner and then making sure it is approved by the lecturer",
-      tanggal: "Agustus 2023 - Desember 2023",
-      sertifikat: ["img/sertifikat/asisten-lecture.jpeg"],
-    },
-    {
-      logo: "",
-      posisi: "Research Assistant",
-      tempat: "Bondowoso District",
-      deskripsi:
-        "Natural Disaster Mapping, Map of potential natural disasters, and Socialization of Disaster Response Village in Sempol Village, Ijen Sub-district, Bondowoso District",
-      tanggal: "Januari 2024 - Oktober 2024",
-      sertifikat: [
-        "img/sertifikat/research-1.jpeg",
-        "img/sertifikat/research-2.jpeg",
-        "img/sertifikat/research-3.jpeg",
-      ],
-    },
-    {
-      logo: "",
-      posisi: "Research Study Assistant",
-      tempat:
-        "Akuisisi Geolistrik Desa Tanjungrejo, Kecamatan Wuluhan, Kabupaten Jember",
-      deskripsi: "-",
-      tanggal: "Januari 2022 - Desember 2022",
-      sertifikat: [
-        "img/sertifikat/jagung-1.jpeg",
-        "img/sertifikat/jagung-2.jpeg",
-        "img/sertifikat/jagung-3.jpeg",
-      ],
     },
     {
       logo: "img/logo/bumi-suksesindo.png",
@@ -78,6 +36,58 @@ export default function Experience() {
         "img/sertifikat/magang-3.jpeg",
       ],
     },
+    {
+      logo: "img/logo/unej.png",
+      posisi: "Research Assistant",
+      tempat: "Bondowoso District",
+      deskripsi:
+        "Natural Disaster Mapping, Map of potential natural disasters, and Socialization of Disaster Response Village in Sempol Village, Ijen Sub-district, Bondowoso District",
+      tanggal: "Januari 2024 - Oktober 2024",
+      sertifikat: [
+        "img/sertifikat/research-1.jpeg",
+        "img/sertifikat/research-2.jpeg",
+        "img/sertifikat/research-3.jpeg",
+      ],
+    },
+    {
+      logo: "img/logo/unej.png",
+      posisi: "Research and Surveyor Assistance",
+      tempat: "LP2M Universitas Jember dan BAPPEDA Provinsi Jawa Timur",
+      deskripsi:
+        "Cooperation Projects Between BAPPEDA of East Java Province and Jember University Related to (Background Study RPJMD dan RPJPD Urusan Energi dan Sumber Daya Mineral (ESDM) Provinsi Jawa Timur)",
+      tanggal: "Mei 2023 - August 2023",
+      sertifikat: ["img/sertifikat/lp2m1.jpg", "img/sertifikat/lp2m2.jpg"],
+    },
+    {
+      logo: "img/logo/unej.png",
+      posisi: "Petrology Mineralogy and Cristalography Assistant Lecture",
+      tempat: "Laboratorium Mekanika Batuan Universitas Jember",
+      deskripsi:
+        "Managing the recapitulation of grades and assignments from the practitioner and then making sure it is approved by the lecturer",
+      tanggal: "Agustus 2023 - Desember 2023",
+      sertifikat: ["img/sertifikat/asisten-lecture.jpeg"],
+    },
+    {
+      logo: "img/logo/unej.png",
+      posisi: "Research Study Assistant",
+      tempat:
+        "Akuisisi Geolistrik Desa Tanjungrejo, Kecamatan Wuluhan, Kabupaten Jember",
+      deskripsi: "-",
+      tanggal: "November 2024 - Desember 2024",
+      sertifikat: [
+        "img/sertifikat/jagung-1.jpeg",
+        "img/sertifikat/jagung-2.jpeg",
+        "img/sertifikat/jagung-3.jpeg",
+      ],
+    },
+    {
+      logo: "img/logo/himata.png",
+      posisi: "Staff Departemen Pengembangan Minat dan Bakat",
+      tempat: "Himpunan Mahasiswa Tambang Universitas Jember",
+      deskripsi: "",
+      tanggal: "Februari 2023 - Desember 2023",
+      sertifikat: ["img/sertifikat/hima.jpeg"],
+    },  
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
