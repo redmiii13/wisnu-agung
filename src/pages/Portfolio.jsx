@@ -6,24 +6,51 @@ export default function Portfolio() {
   const portfolio = [
     {
       id: 1,
-      judul: "Introduction to Mining Finance Model",
-      tempat: "PITINDO TRAINING | Oktober 2024",
+      judul: "Pendidikan & Pelatihan Kompetensi AHLI KESELAMATAN & KESEHATAN KERJA UMUM",
+      tempat: "NAGAN TRAINING | 22-23 & 29-30 November 2025 ",
       skill:
-        "WACC, Net Present Value (NPV), Internal Rate of Return (IRR), Cash Flow , Forecasting",
-      link: "https://drive.google.com/file/d/1pAv2M5ut1HVb_A_0y7H9II7kOOIl1b5V/view?usp=drivesdk",
-      gambar: "img/sertif1.png",
+        "Merancang Strategi Pengendalian Risiko K3 di Tempat Kerja, Merancang Sistem Tanggap Darurat , Melakukan Komunikasi K3, Mengawasi Pelaksanaan Izin Kerja, Melakukan Pengukuran Faktor Bahaya di Tempat Kerja, Mengelola Pertolongan Pertama pada Kecelakaan Kerja (P3K) di Tempat Kerja, Mengelola Tindakan Tanggap Darurat, Mengelola Alat Pelindung Diri (APD) di Tempat Kerja, Menerapkan Program Pelayanan Kesehatan Kerja, Mengelola Sistem Dokumentasi K3, Menerapkan Manajemen Risiko K3, Mengevaluasi Pemenuhan Persyaratan dan Prosedur K3 , Melakukan Investigasi Kecelakaan Kerja ",
+      link: "https://drive.google.com/file/d/1YGnSyVZcDLaL3u-DCz3up9GJ-sld8Y4u/view?usp=drive_link",
+      gambar: "",
     },
     {
       id: 2,
-      judul: "Pelatihan Dasar Pengoperasian Drone",
-      tempat: "TERRA DRONE INDONESIA | Oktober 2024",
+      judul: "BASIC INTENSIVE ENGLISH PROGRAM",
+      tempat: "Kampung Inggris Language Center | February - March 2026",
       skill:
-        "Drone Piloting, Drone Photography,  Drone Mapping,  Drone Videography",
-      link: "https://drive.google.com/file/d/1cVvsbST6rgtRN_BqkaPGUIunV3s7imUb/view?usp=drivesdk",
-      gambar: "img/sertif2.png",
+        "Grammar, Speaking",
+      link: "https://drive.google.com/file/d/19ElAaOhiHTZ2lZa5t3G4WlHRDM1muzwB/view?usp=drive_link",
+      gambar: "",
     },
     {
       id: 3,
+      judul: "Mine Scheduling & Short Term Plan (Case Study: Gold)",
+      tempat: "PITINDO TRAINING | 25-27 March 2025",
+      skill:
+        "Mine Schedulling, Short Term Plan, Short Term Design, Haul Road Design",
+      link: "https://drive.google.com/file/d/10X75XV1t8nw4W2Jmdb6sM8WjKLwmmLJH/view",
+      gambar: "",
+    },
+    {
+      id: 4,
+      judul: "Pit Optimization & Mine Plan Design (Case Study : Gold)",
+      tempat: "PITINDO TRAINING | Januari 2025",
+      skill:
+        "Set Up Block Model, Whittle Algorithm, Pit Optimization, Pit Design, Report With Ramp Design, Report Total Reserves, Disposal Design, Haul Road Design,  Open-Pit Mining",
+      link: "https://drive.google.com/file/d/1aMdV5XhqElrOR0EcSZegYVWa5vp4Rf7O/view?usp=drivesdk",
+      gambar: "img/sertif5.png",
+    },
+    {
+      id: 4,
+      judul: "TOEFL Certification",
+      tempat: "Brighten English | Oktober 2025",
+      skill:
+        "Listening Comprehension, Structure and Written Expression, and Reading Comprehension",
+      link: "https://drive.google.com/file/d/1JMCyFY1HaXkOyUBZPKxt5zY2-0DUDTU0/view?usp=drive_link",
+      gambar: "",
+    },
+    {
+      id: 5,
       judul: "Pit Optimization & Mine Plan Design (Case Study : Nickel)",
       tempat: "PITINDO TRAINING | Oktober 2024",
       skill:
@@ -32,7 +59,7 @@ export default function Portfolio() {
       gambar: "img/sertif3.png",
     },
     {
-      id: 4,
+      id: 6,
       judul:
         "Geological Modelling & Resources Estimation (Case Study : Nickel)",
       tempat: "PITINDO TRAINING | September 2024",
@@ -42,14 +69,24 @@ export default function Portfolio() {
       gambar: "img/sertif4.png",
     },
     {
-      id: 5,
-      judul: "Pit Optimization & Mine Plan Design (Case Study : Emas)",
-      tempat: "PITINDO TRAINING | Januari 2025",
+      id:7,
+      judul: "Pelatihan Dasar Pengoperasian Drone",
+      tempat: "TERRA DRONE INDONESIA | Oktober 2024",
       skill:
-        "Set Up Block Model, Whittle Algorithm, Pit Optimization, Pit Design, Report With Ramp Design, Report Total Reserves, Disposal Design, Haul Road Design,  Open-Pit Mining",
-      link: "https://drive.google.com/file/d/1aMdV5XhqElrOR0EcSZegYVWa5vp4Rf7O/view?usp=drivesdk",
-      gambar: "img/sertif5.png",
+        "Drone Piloting, Drone Photography,  Drone Mapping,  Drone Videography",
+      link: "https://drive.google.com/file/d/1cVvsbST6rgtRN_BqkaPGUIunV3s7imUb/view?usp=drivesdk",
+      gambar: "img/sertif2.png",
     },
+    {
+      id: 8,
+      judul: "Introduction to Mining Finance Model",
+      tempat: "PITINDO TRAINING | Oktober 2024",
+      skill:
+        "WACC, Net Present Value (NPV), Internal Rate of Return (IRR), Cash Flow , Forecasting",
+      link: "https://drive.google.com/file/d/1pAv2M5ut1HVb_A_0y7H9II7kOOIl1b5V/view?usp=drivesdk",
+      gambar: "img/sertif1.png",
+    },
+    
   ];
 
   const [activeIndex, setActiveIndex] = useState(0);
