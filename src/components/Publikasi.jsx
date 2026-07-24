@@ -23,5 +23,19 @@ function Publikasi() {
     </>
   );
 }
-
+<div className="mb-2 mx-4">
+  <span className="text-lg text-primary font-bold">4 November 2025</span>
+  <h2 className="text-2xl font-bold">
+    Pemanfaatan Metode Geolistrik sebagai Panduan Pengeboran Sumur Dalam untuk Mendukung Kegiatan Pertanian Kelompok Tani Margi Tani Satu di Desa Tanjungrejo, Kecamatan Wuluhan, Kabupaten Jember
+  </h2>
+  <div className="flex flex-col mt-2">
+    <a
+      href="https://madaniya.biz.id/journals/contents/article/view/1458/1038"
+      className="text-lg text-primary font-bold"
+    >
+      MADANIYA
+    </a>
+  </div>
+  <hr className="mt-4" />
+</div>
 export default Publikasi;
