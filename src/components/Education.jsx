@@ -24,7 +24,7 @@ function Experience() {
             Universitas Jember
           </h1>
           <span className="text-sm md:text-base text-primary font-bold border border-primary px-6 py-2 rounded-full">
-            2021 - Now
+            2021 - 2025
           </span>
         </div>
       </div>
