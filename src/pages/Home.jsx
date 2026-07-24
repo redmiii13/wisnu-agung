@@ -18,7 +18,7 @@ export default function Home() {
       <div className="w-full lg:w-1/2 text-primary mb-10 lg:mb-0 order-2 lg:order-1">
         <h1 className="text-4xl font-semibold text-white">Hello I'm 👋 </h1>
         <span
-          className="inline-block text-4xl lg:text-5xl font-semibold text-primary text-left lg:text-right lg:whitespace-nowrap"
+          className="inline-block text-4xl lg:text-5xl font-semibold text-white text-left lg:text-right lg:whitespace-nowrap"
           style={{ wordSpacing: "-2px" }}
         >
           <TypeAnimation
@@ -31,7 +31,7 @@ export default function Home() {
         </span>
 
         <h2 className="text-lg font-base text-white lg:text-lg mt-4">
-          Fresh Graduate Mining Engineering |{" "}
+         Bachelor of Mining Engineering |{" "}
           <span className="text-primary font-bold"> Universitas Jember </span>
         </h2>
         <p className="text-base text-white max-w-xl lg:text-md mt-4">
@@ -99,7 +99,7 @@ export default function Home() {
         <div className="absolute w-64 h-64 rounded-full border-4 border-dashed border-primary animate-spin duration-900"></div>
         <img
           src="img/wisnu.png"
-          alt="nug"
+          alt="wisnu"
           className="w-60 h-60 object-contain filter brightness-60 relative"
         />
       </div>
